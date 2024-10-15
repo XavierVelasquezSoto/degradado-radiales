@@ -26,4 +26,65 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+.subtitle {
+  color: white;
+}
+
+.bandera-1 {
+  width: 300px;
+  height: 200px;
+  border: 2px solid white;
+  background-image: radial-gradient(circle, red 50px, white 50px 300px);
+}
+.bandera-2 {
+  width: 300px;
+  height: 200px;
+  border: 2px solid white;
+  background-image: radial-gradient(circle, rgb(226, 226, 9) 50px, rgb(35, 177, 237) 50px 300px);
+}
+
+.bandera-3 {
+  width: 300px;
+  height: 200px;
+  border: 2px solid white;
+
+  background-image: radial-gradient(circle, white 40px, transparent 40px),
+    linear-gradient(red 55px, blue 55px 140px, red 140px);
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bandera-4 {
+  width: 600px;
+  height: 300px;
+  border: 2px solid white;
+  background-image: radial-gradient(
+    circle at bottom center,
+    transparent 50px,
+    red 50px 80px,
+    rgb(227, 206, 20) 80px 110px,
+    yellow 110px 140px,
+    green 140px 170px,
+    blue 170px 200px,
+    purple 200px 230px,
+    pink 230px 260px,
+    transparent 260px
+  );
 }
